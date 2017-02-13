@@ -1,4 +1,0 @@
-module GTMNSString_HTML {
-    umbrella header "/Users/norio/github/GTMNSString_HTML/Sources/include/GTMNSString_HTML.h"
-    export *
-}
