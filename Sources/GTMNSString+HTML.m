@@ -26,7 +26,7 @@ __attribute__((visibility("default")))
     char GTMNSString_HTMLExportToSuppressLibToolWarning = 0;
 
 typedef struct {
-  NSString *escapeSequence;
+  __unsafe_unretained NSString *escapeSequence;
   unichar uchar;
 } HTMLEscapeMap;
 
