@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6C9E47BF1E51457B004655DE /* GTMDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = OBJ_10 /* GTMDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6C9E47C01E514580004655DE /* GTMNSString+HTML.h in Headers */ = {isa = PBXBuildFile; fileRef = OBJ_11 /* GTMNSString+HTML.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6C9E47C11E514585004655DE /* GTMNSString_HTML.h in Headers */ = {isa = PBXBuildFile; fileRef = OBJ_12 /* GTMNSString_HTML.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		OBJ_26 /* GTMNSString+HTML.m in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_8 /* GTMNSString+HTML.m */; };
 		OBJ_34 /* GTMNSString+HTMLTest.m in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_16 /* GTMNSString+HTMLTest.m */; };
 		OBJ_36 /* GTMNSString_HTML.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_18 /* GTMNSString_HTML.framework */; };
@@ -109,6 +112,19 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		6C9E47BE1E514573004655DE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C9E47C01E514580004655DE /* GTMNSString+HTML.h in Headers */,
+				6C9E47C11E514585004655DE /* GTMNSString_HTML.h in Headers */,
+				6C9E47BF1E51457B004655DE /* GTMDefines.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
 		OBJ_20 /* GTMNSString_HTML */ = {
 			isa = PBXNativeTarget;
@@ -117,6 +133,7 @@
 				OBJ_24 /* ShellScript */,
 				OBJ_25 /* Sources */,
 				OBJ_27 /* Frameworks */,
+				6C9E47BE1E514573004655DE /* Headers */,
 			);
 			buildRules = (
 			);
