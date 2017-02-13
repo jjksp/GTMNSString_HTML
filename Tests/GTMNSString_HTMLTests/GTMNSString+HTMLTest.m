@@ -16,10 +16,10 @@
 //  the License.
 //
 
-#import "GTMSenTestCase.h"
 #import "GTMNSString+HTML.h"
+@import XCTest;
 
-@interface GTMNSString_HTMLTest : GTMTestCase
+@interface GTMNSString_HTMLTest : XCTestCase
 @end
 
 @implementation GTMNSString_HTMLTest
